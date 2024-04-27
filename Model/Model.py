@@ -106,3 +106,30 @@ class AutoencoderClassifier(nn.Module):
         classification = self.classifier(encoded)
 
         return decoded, classification
+
+
+class Autoencoder(nn.Module):
+    def __init__(self, Input_size):
+        super(Autoencoder, self).__init__()
+        self.input_size = Input_size
+        self.encoder = nn.Sequential(
+            nn.Linear(self.input_size, 1024),
+            nn.BatchNorm1d(1024),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(1024, 256),
+            nn.BatchNorm1d(256),
+            nn.ReLU(),
+            nn.Dropout(0.2))
+        self.decoder = nn.Sequential(
+            nn.Linear(256, 1024),
+            nn.BatchNorm1d(1024),
+            nn.ReLU(),
+            nn.Dropout(0.3),
+            nn.Linear(1024, self.input_size),
+            nn.Sigmoid())
+
+    def forward(self, x):
+        encoded = self.encoder(x)
+        decoded = self.decoder(encoded)
+        return decoded
