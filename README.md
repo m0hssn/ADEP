@@ -1,6 +1,6 @@
 # ADEP: A Novel Approach Based on Discriminator-Enhanced Encoder-Decoder Architecture for Accurate Prediction of Adverse Effects in Polypharmacy
 
-Unanticipated drug-drug interactions (DDIs) present a substantial risk of severe bodily harm, underscoring the critical need for predicting adverse effects in polypharmacy. This paper introduces ACAE, a novel approach that integrates a discriminator and an encoder-decoder model to address data sparsity and enhance feature extraction accuracy.
+Unanticipated drug-drug interactions (DDIs) present a substantial risk of severe bodily harm, underscoring the critical need for predicting adverse effects in polypharmacy. This paper introduces ADEP, a novel approach that integrates a discriminator and an encoder-decoder model to address data sparsity and enhance feature extraction accuracy.
 
 
 
