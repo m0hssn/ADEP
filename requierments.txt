@@ -1,7 +1,7 @@
-torch
-numpy
-pandas
-scikit-learn
-matplotlib
-torchmetrics
+torch==2.0.0
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+torchmetrics==1.0.0
 git+https://github.com/m0hssn/Metrica.git
