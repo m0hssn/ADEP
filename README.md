@@ -26,6 +26,6 @@ Use the following command to install all dependencies.
 ## Citation
 Please kindly cite the paper if you use the code or the datasets in this repo:
 
-Katayoun Kobraei, Mehrdad Baradaran, Seyed Mohsen Sadeghi, Razieh Masumshah and Changiz Eslahchi, ADEP: A Novel Approach Based on Discriminator-Enhanced
+Katayoun Kobraei, Mehrdad Baradaran, Seyed Mohsen Sadeghi, Raziyeh Masumshah and Changiz Eslahchi, ADEP: A Novel Approach Based on Discriminator-Enhanced
 Encoder-Decoder Architecture for Accurate Prediction of Adverse
 Effects in Polypharmacy, 2024, ##insert link here
